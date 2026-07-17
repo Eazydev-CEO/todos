@@ -9,12 +9,13 @@ from drf_yasg import openapi
 
 schema_view = get_schema_view(
    openapi.Info(
-      title="Tode API",
+      title="Todo API",
       default_version='v1',
-      description="Todo applications",
-      terms_of_service="https://www.google.com/policies/terms/",
-      contact=openapi.Contact(email="contact@snippets.local"),
-      license=openapi.License(name="BSD License"),
+      description=(
+          "A todo list API with JWT authentication. Register for an account, "
+          "then send the returned token as `Authorization: Bearer <token>`."
+      ),
+      license=openapi.License(name="MIT License"),
    ),
    public=True,
    permission_classes=(permissions.AllowAny,),
