@@ -1,5 +1,11 @@
 # Todo API
 
+![Python](https://img.shields.io/badge/Python-3-3776AB?logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-4.2-0C4B33?logo=django&logoColor=white)
+![DRF](https://img.shields.io/badge/DRF-3.14-a30000)
+![JWT](https://img.shields.io/badge/auth-PyJWT-000000?logo=jsonwebtokens&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-blue)
+
 A todo list REST API built with Django and Django REST Framework, using a custom
 user model that authenticates by email and issues JSON Web Tokens. Todos are
 scoped to their owner, so each account only ever sees its own.
